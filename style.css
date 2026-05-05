@@ -1,514 +1,114 @@
-.whole{
-    background-color: #F2F0EB;
-    display: flex;
-    flex-direction: column;
+.navbar {
+        background-color: #111111;
+        border-bottom: 2px solid #f57c00;
+      }
 
-    
-}
-body{
-    width: 100%;
-     margin: 0;
-    padding: 0;
-}
-*{
-    box-sizing: border-box;
-   
-}
-.first{
-    font-family: 'Margin Demo', sans-serif;
-}
-.home{
-    display: flex;
-    gap: 50px;
-    font-family: 'Margin Demo', sans-serif;
-    font-size: 24px;
-    justify-content: space-around;
-}
-li{
-    list-style: none;
-}
-.image{
-    position: relative;
-     
+      .navbar-brand {
+        color: #f57c00 !important;
+        font-weight: 800;
+        font-size: 40px;
+        letter-spacing: 0.1em;
+      }
 
-}
-.image img {
-    width: 100%;
-}
+      .nav-link {
+        color: #e0e0e0 !important;
+        font-weight: 400;
+        padding: 8px 16px !important;
+        transition: color 0.2s;
+      }
 
-.image-text{
-display: flex;
-}
-.mojo-text{
-     font-family: 'Margin Demo', sans-serif;
-     position: absolute;
-    top: 20%;
-    left: 5%;
-    color: #F2F0EB;
-    font-size: 160px;
+      .btn-hire {
+        background-color: #f57c00;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 20px;
+      }
 
-}
-.order-online {
-    font-family: 'Margin Demo', sans-serif;
-    position: absolute;
-    bottom: 20%;
-    left: 5%;
-    background: #F2F0EB;
-    padding: 15px 30px;
-    font-size: 20px;
-    border-radius: 5px;
-}
+      .picture {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 80px;
+        gap: 40px;
+      }
 
-.boxes{
-    display: flex;
-    justify-content: space-between;
-}
-.box{
-    flex: 1;
-    padding: 20px;
-}
-.second-part{
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    padding: 20px;
-    font-family: 'Margin Demo', sans-serif;
-   width: 90%;
-}
-.second-part img {
-    width: 100%;
-    height: auto;
-}
-
-
-.Our-Merch, .product-text{
- position: absolute;
-    top: 40%;
-    left: 30%;
-    font-size: 50px;
-    color: #F2F0EB;
-
-
-}
-.shop-merch, .shop-product{
- position: absolute;
-    top: 60%;
-    left: 35%;
-    background: #F2F0EB;
-    padding: 15px 30px;
-    font-size: 20px;
-    border-radius: 5px;
-
-}
-.our-products, .merch{
-    position: relative;
-   
-}
-
-
-.third-part{
-max-width: 1400px;
-    padding: 100px 20px;
-    display: flex;
-   justify-content: space-between;
-   flex-direction: row-reverse;
-    gap: 40px;
-
-}
-.Big-image img{
-    width: 450px;
-    max-width: 100%;
-  position: relative;
-}
-.UpperRightImage img{
-    position: absolute;
-   top: 10%;
-   left: 80%;
-   width: 100%;
-   
-}
-
-.LowerLeftImage img{
-     position: absolute;
-     top: 60%;
-   right: 80%;
-   width: 100%;
-}
-.WhoWeAre{
-    font-family: 'Margin Demo', sans-serif;
-    font-size: 55px;
-    width: 100%;
-}
-.other-text{
-    font-size: 18px;
-   font-family: "Plus Jakarta Sans", sans-serif;
-   line-height: 1.7;
-}
-.text{
-    max-width: 500px;
-}
-.UpperRightImage img,
-.LowerLeftImage img {
-    width: 150px;
-}
-.who{
-    position: relative;
-}
-.learn-more{
-    font-family: 'Margin Demo', sans-serif;
-    background: #3C5765;
-    color: #fff;
-    padding: 15px;
-    width: 180px;
-    margin-top: 20px;
-    text-align: center;
-    border-radius: 5px;
-
-}
-.fourth-part{
-    background: #434C56;
-    color: #fff;
-    padding: 120px 20px;
-
-}
-.Our-Philosophy{
-     text-align: center;
-    font-family: 'Margin Demo', sans-serif;
-    font-size: 55px;
-    margin-bottom: 100px;
-
-}
-.area{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 120px;
-
-}
-.area img {
-    width: 300px;
-    max-width: 100%;
-}
-
-.other{
-    max-width: 425.09px;
-     font-size: 18px;
-   font-family: "Plus Jakarta Sans", sans-serif;
-   line-height: 1.7;
-}
-.cannabis, .onsitePharmacist, .driveThrough{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.lab,.fresh{
- display: flex;
- flex-direction: row-reverse;
- justify-content: space-between;
-       
-}
-
-.fifth-part{
-   max-width: 1200px;
-    margin: auto;
-    padding: 100px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.latest{
-    display: flex;
-    justify-content: space-between;
-}
-.latestArticle{
- font-family: 'Margin Demo', sans-serif; 
- font-size: 55px;
-}
-.view{
-     font-family: 'Margin Demo', sans-serif; 
- background: #3C5765;
-    color: #fff;
-    padding: 15px 25px;
-    display: inline-block;
-    border-radius: 5px;
-    margin: 20px 0;
-
-}
-.thanksgiving, .happy, .depression{
-    border: 2px solid #3C5765;
-    border-radius: 12px;
-    width: 384px;
-    max-width: 100%;
-    
-
-}
-.byKenna{
-    color: #000000;
-   font-size: 12px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    padding: 0 10px 20px;
-    line-height: 2;
-
-}
-.afterKenna{
-    color: #000000;
-    font-family: 'Margin Demo', sans-serif;
-    font-size: 22px;
-    padding: 0 10px 20px;
-
-}
-.articles{
-    display: flex;
-    gap: 30px;
-}
-
-.sixth-part {
-    max-width: 100%;
-    padding: 53px 40px;
-    display: flex;
-    
-    flex-direction: row-reverse;
-    gap: 150px;
-    align-self: center;
-}
-
-.sixth-part .reachImage img{
-     width: 637px;
-    max-width: 100%;
-}
-.sixth-part .reach{
-    max-width: 391px;
-}
-.reachHeader{
-    color: #000000;
-    font-family: 'Margin Demo', sans-serif;
-    font-size: 55px;
-}
-.reachOther{
-    line-height: 1.5;
-    color: #000000;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 18px;
-}
-.email{
-    line-height: 1.5;
-    font-family: 'Margin Demo', sans-serif; 
-background: #3C5765;
-    color: #fff;
-    padding: 15px;
-    width: 200px;
-    margin-top: 20px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.seventh-part{
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    margin: auto;
-    padding: 100px 20px;
-    gap: 100px;
-
-}
-.igImages img{
-   width: 200px;
-
-}
-.igImages{
-   display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-
-}
-.beginning{
-    display: flex;
-    justify-content: space-between;
-}
-
-.questions{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 16px;
-    max-width: 363px;
-
-}
-.instagram{
-   font-family: 'Margin Demo', sans-serif; 
-   font-size: 45px;
-   max-width: 226px;  
-}
-
-
-.last-part{
-background: #3C5765;
-    color: #ffff;
-    padding: 100px 20px;
-    display: flex;
-    gap: 60px;
-    max-width: 100%;
-    justify-content: space-around;
-}
-.last-part h2 {
-    font-family: 'Margin Demo', sans-serif;
-}
-
- .navigation{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    max-width: 144px;
-    line-height: 3;
-     font-size: 14px;
-}
-.location{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    max-width: 199px;
-     line-height: 3;
-      font-size: 14px;
-}
-.hours{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: #FFFFFF;
-    max-width: 150px;
-     line-height: 3;
-     font-size: 14px;
-   
-}
-.news{
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: #FFFFFF;
-    max-width: 355px;
-     line-height: 2;
-      font-size: 14px;
-    
-} 
-.enter{
-    border: 2px solid #fff;
-    padding: 10px;
-    border-radius: 6px;
-
-}
-.signUp{
-     font-family: 'Margin Demo', sans-serif; 
- background: #fff;
-    color: #3C5765;
-    padding: 15px;
-    width: 160px;
-    border-radius: 5px;
-    margin-top: 10px;
-    text-align: center;
-
-}
-.icons{
-   display: flex;
-   padding: 15px;
-     gap: 10px;
-} 
-
-  @media (max-width: 768px) {
-    body{
-        width: 100%;
-    }
-    .whole{
-        width: 100%;
-    }
- .merch, .our-products{
-    width: 100%;
- }
-  .home {
+      .name {
+        display: flex;
         flex-direction: column;
-        gap: 10px;
-    }
+        gap: 24px;
+        flex: 1;
+      }
 
-    .third-part, .sixth-part {
-        flex-direction: column;
-    }
-    .fifth-part{
-        width: 100%;
-    
-    }
-    .last-part, .latest{
-        flex-direction: column;
-    }
-    .articles,.beginning{
-        width: 100%;
-        flex-direction: column;
-    }
-  .cannabis, .onsitePharmacist, .driveThrough,.lab,.fresh{
-    flex-direction: column;
-  }
-  .mojo-text{
-    font-size: 40px;
-  }
-  .second-part img {
-    width: 100%;
-    height: 110%;
-}
-
-  .Our-Merch, .product-text{
-    font-size: 17px;
-    width: 100%;
-  }
-  .shop-merch, .shop-product, .order-online{
-    position: absolute;
-    font-size: 10px;
-     padding: 8px 15px;
-     
-  }
-  .view{
-    font-size: 15px;
-     padding: 18px 20px;
-     width: 50%;
-  }
-  .articles img{
-  width: 100%;
-
-  }
-  .thanksgiving, .happy, .depression{
-    max-width: 100%;
-  }
-  .UpperRightImage img{
-    position: absolute;
-   top: 10%;
-   left: 75%;
-   width: 100px;
-   
-}
-
-.LowerLeftImage img{
-     position: absolute;
-     top: 52%;
-   right: 77%;
-  width: 100px;
-}
-.who{
-    position: relative;
-}
-
-  }
-  @media(max-width: 768px){
-    .home {
-        flex-direction: column;
-        gap: 10px;
-    }
-.mojo-text{
-    font-size: 40px;
-  }
-  }
-  @media (max-width: 1024px) {
-    .order-online{
-        position: absolute;
+      .myName {
         font-size: 20px;
-        padding: 15px 50px;
-        bottom: 6%;
-    left: 5%;
-    }
-    .articles, .latest{
-        flex-direction: column;
-    }
-    .view{
-    font-size: 15px;
-     padding: 18px 20px;
-     width: 50%;
-  }
+        color: #cccccc;
+        line-height: 1.8;
+      }
+
+      .btn-cv {
+        background-color: transparent;
+        color: #e0e0e0;
+        font-weight: 500;
+        padding: 10px 60px;
+        border-radius: 40px;
+        border: 2px solid #e0e0e0;
+      }
+
+      .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-image img {
+        width: 100%;
+        max-width: 420px;
+        border: 3px solid #f57c00;
+      }
+
+      .btn-send {
+        background-color: #fff;
+        color: #111 !important;
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .picture {
+          padding: 40px 24px;
+        }
+      }
+      @media (max-width: 768px) {
+  .picture {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
   }
 
+  .download {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    max-width: 280px;
+  }
+
+  .myName{
+    text-align: center;
+  }
+  .navbar-brand{
+ text-align: center;
+ font-size: 25px;
+  }
+  body{
+        width: 100%;
+    }
+    .pic img{
+        width: 100%;
+    }
+}
