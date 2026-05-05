@@ -97,4 +97,15 @@
   .hero-image img {
     max-width: 280px;
   }
+
+  .myName{
+    text-align: center;
+  }
+  .navbar-brand{
+ text-align: center;
+ font-size: 25px;
+  }
+  body{
+        width: 100%;
+    }
 }
