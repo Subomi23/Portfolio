@@ -1,0 +1,85 @@
+.navbar {
+        background-color: #111111;
+        border-bottom: 2px solid #f57c00;
+      }
+
+      .navbar-brand {
+        color: #f57c00 !important;
+        font-weight: 800;
+        font-size: 40px;
+        letter-spacing: 0.1em;
+      }
+
+      .nav-link {
+        color: #e0e0e0 !important;
+        font-weight: 400;
+        padding: 8px 16px !important;
+        transition: color 0.2s;
+      }
+
+      .btn-hire {
+        background-color: #f57c00;
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 20px;
+      }
+
+      .picture {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px 80px;
+        gap: 40px;
+      }
+
+      .name {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        flex: 1;
+      }
+
+      .myName {
+        font-size: 20px;
+        color: #cccccc;
+        line-height: 1.8;
+      }
+
+      .btn-cv {
+        background-color: transparent;
+        color: #e0e0e0;
+        font-weight: 500;
+        padding: 10px 60px;
+        border-radius: 40px;
+        border: 2px solid #e0e0e0;
+      }
+
+      .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .hero-image img {
+        width: 100%;
+        max-width: 420px;
+        border: 3px solid #f57c00;
+      }
+
+      .btn-send {
+        background-color: #fff;
+        color: #111 !important;
+        font-weight: 600;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .picture {
+          padding: 40px 24px;
+        }
+      }
