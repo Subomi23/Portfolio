@@ -83,3 +83,18 @@
           padding: 40px 24px;
         }
       }
+      @media (max-width: 768px) {
+  .picture {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .download {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    max-width: 280px;
+  }
+}
